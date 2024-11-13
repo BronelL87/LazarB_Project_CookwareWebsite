@@ -1,3 +1,47 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+
 body{
     background-color: #EDEDED;
+}
+
+.navStyle{
+    font-family: Roboto, Times, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 1.5rem 2rem;
+}
+
+.navNormal{
+    color: #353535;
+}
+
+.navSale{
+color: #982A1C;
+}
+
+.navStyle:hover{
+    color: #B73A2A;
+    text-decoration: underline;
+}
+.logoStyle{
+    margin-left: 7rem;
+    width: 93px;
+    height: 76px;
+}
+
+.hero-bg{
+    background-image: url(../assets/hero.jpg);
+    width: 1920px;
+    height: 1200px;
+}
+
+.hero-text{
+    margin-top: 55rem;
+    margin-left: 10rem;
+    color: white;
+    font-size: 48px;
 }
