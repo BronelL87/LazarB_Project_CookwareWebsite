@@ -15,20 +15,23 @@ body {
   background-color: #ededed;
 }
 .container-custom{
- 
+ display: flex;
+ justify-content: center;
 }
-.row-custom{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap; */
-}
+
 .section-1-card{
+    margin: 1.5rem;
+}
+.section-1-img{
     max-width: 23.5rem;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    height: 21.688rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.section-1-text{
+    font-family: Roboto M, Times, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin-top: 1rem;
 }
 .navStyle {
   font-family: Roboto, Times, Arial, Helvetica, sans-serif;
@@ -98,9 +101,58 @@ body {
     width: 23.5rem;
     height: 21.688rem;
     border-radius: 10px;
-    margin: 1.5rem;
+    transition: 10ms;
+    object-fit: cover;
+}
+.s2cSize{
+    width: 50.313rem;
+    height: 39.5rem;
+
 }
 .scSize:hover{
     transform: scale(1.1);
 
+}
+
+.section-2-title{
+    font-family: Roboto B, Times, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin-top: 1.5rem;
+}
+
+.section-2-text{
+    font-family: Roboto, Times, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 0.5rem;
+}
+
+.color-select-txt1{
+    font-family: Roboto M, Times, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.selector-color-1{
+    background-color: #EA2D2C;
+    width: 1.361rem;
+    height: 1.361rem;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-left: 2.5px;
+    
+}
+.color-border{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.container-custom-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr auto;
+}
+.section-2-card{
+    grid-column: 1/2;
 }
