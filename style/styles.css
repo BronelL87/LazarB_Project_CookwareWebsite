@@ -1,47 +1,106 @@
 @font-face {
-    font-family: Roboto;
-    src: url(../assets/fonts/Roboto-Regular.ttf);
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto B;
+  src: url(../assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto M;
+    src: url(../assets/fonts/Roboto-Medium.ttf);
 }
 
-
-body{
-    background-color: #EDEDED;
+body {
+  background-color: #ededed;
+}
+.container-custom{
+ 
+}
+.row-custom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap; */
+}
+.section-1-card{
+    max-width: 23.5rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.navStyle {
+  font-family: Roboto, Times, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 1.5rem 2rem;
 }
 
-.navStyle{
-    font-family: Roboto, Times, Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 24px;
-    padding: 1.5rem 2rem;
+.navNormal {
+  color: #353535;
 }
 
-.navNormal{
-    color: #353535;
+.navSale {
+  color: #982a1c;
 }
 
-.navSale{
-color: #982A1C;
+.navStyle:hover {
+  color: #b73a2a;
+  text-decoration: underline;
+}
+.logoStyle {
+  margin-left: 7rem;
+  width: 93px;
+  height: 76px;
 }
 
-.navStyle:hover{
-    color: #B73A2A;
-    text-decoration: underline;
-}
-.logoStyle{
-    margin-left: 7rem;
-    width: 93px;
-    height: 76px;
+.hero-bg {
+  background-image: url(../assets/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 72rem;
 }
 
-.hero-bg{
-    background-image: url(../assets/hero.jpg);
-    width: 1920px;
-    height: 1200px;
+.hero-text {
+  font-family: Roboto, Times, Arial, Helvetica, sans-serif;
+  margin-top: 55rem;
+  margin-left: 7rem;
+  color: white;
+  font-size: 48px;
 }
 
-.hero-text{
-    margin-top: 55rem;
-    margin-left: 10rem;
-    color: white;
-    font-size: 48px;
+.saleBg {
+  background-color: #1e2c20;
+  height: 6.188rem;
+}
+
+.sale-text {
+  font-family: Roboto, Times, Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 24px;
+  padding-top: 2.1rem;
+}
+
+.herotxt-bg {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 34.063rem;
+  padding: 2.125rem;
+}
+
+.cookTitle {
+  font-family: Roboto B;
+  font-size: 64px;
+}
+
+.scSize{
+    width: 23.5rem;
+    height: 21.688rem;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+.scSize:hover{
+    transform: scale(1.1);
+
 }
