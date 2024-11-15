@@ -10,6 +10,10 @@
     font-family: Roboto M;
     src: url(../assets/fonts/Roboto-Medium.ttf);
 }
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/Inter_18pt-Regular.ttf);
+}
 
 body {
   background-color: #ededed;
@@ -91,7 +95,11 @@ body {
   width: 34.063rem;
   padding: 2.125rem;
 }
-
+.sec-1-header{
+  margin-top: 8rem;
+  display: flex; 
+  justify-content: center;
+}
 .cookTitle {
   font-family: Roboto B;
   font-size: 64px;
@@ -110,6 +118,10 @@ body {
 
 }
 .scSize:hover{
+    transform: scale(1.1);
+
+}
+.sc3Size:hover{
     transform: scale(1.1);
 
 }
@@ -155,4 +167,89 @@ body {
 }
 .section-2-card{
     grid-column: 1/2;
+}
+
+.sc3Size{
+  width: 28.063rem;
+  height: 21.125rem;
+}
+.section-1-img{
+  max-width: 28.063rem;
+  height: 21.125rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.sec-3-border{
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.sec-3-txt{
+  font-size: 18px;
+  width: 28.063rem;
+  font-family: Roboto, Times, Arial, Helvetica, sans-serif;
+}
+.shopBtn{
+  width: 9.938rem;
+  height: 2.625rem;
+  border: 1px solid #292828;
+  font-size: 16px;
+  font-family: Inter, 'Times New Roman', Times, serif;
+  color: #292828;
+  margin-top: 1rem;
+}
+.shopBtn:hover{
+  color: white;
+  background-color: #1E2C20;
+}
+.shopMove{
+  margin-top: 4.3rem;
+}
+.firstHeight{
+  height: 39.063rem;
+}
+.cardHeight{
+  height: 47.313rem;
+}
+.reviewImg-1{
+  background-image: url(../assets/Reviews1.jpg);
+  background-size: cover;
+  width: 33.188rem;
+  height: 41.547rem;
+  border-radius: 10px;
+}
+.reviewImg-2{
+  background-image: url(../assets/Reviews2.jpg);
+  background-size: cover;
+  width: 33.188rem;
+  height: 41.547rem;
+  border-radius: 10px;
+}
+.reviewImg-3{
+  background-image: url(../assets/Reviews3.jpg);
+  background-size: cover;
+  width: 33.188rem;
+  height: 41.547rem;
+  border-radius: 10px;
+}
+.reviewBox{
+  margin-top: 10rem;
+  margin-left: 3rem;
+  width: 26.625rem;
+  height: 21.563rem;
+  background-color: #12121299;
+}
+.review-title{
+  padding-top: 5rem;
+  font-size: Roboto B;
+  font-size: 40px;
+  color: white;
+}
+.review-txt{
+  margin-left: 2rem;
+  font-family: Roboto;
+  color: white;
+  width: 23.125rem;
 }
