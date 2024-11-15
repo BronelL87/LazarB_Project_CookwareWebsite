@@ -131,6 +131,13 @@ body {
     font-size: 36px;
     margin-top: 1.5rem;
 }
+.section-2-card1{
+  max-width: 50.313rem;
+  margin-left: 8rem;
+}
+.section-2-card2{
+  max-width: 50.313rem;
+}
 
 .section-2-text{
     font-family: Roboto, Times, Arial, Helvetica, sans-serif;
@@ -162,22 +169,30 @@ body {
 
 .container-custom-2{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: repeat(auto-fit, minmax(50.313rem, 1fr));
+    gap: 5rem;
+
 }
-.section-2-card{
-    grid-column: 1/2;
+.arrival-pos{
+  margin-top: 5rem;
+text-align: center;
+margin-bottom: 3rem;
 }
 
+.sec-3-img{
+  overflow: hidden;
+  border-radius: 10px;
+}
 .sc3Size{
   width: 28.063rem;
   height: 21.125rem;
+  border-radius: 10px;
 }
 .section-1-img{
   max-width: 28.063rem;
   height: 21.125rem;
   overflow: hidden;
-  border-radius: 10px;
+
 }
 
 .sec-3-border{
@@ -252,4 +267,128 @@ body {
   font-family: Roboto;
   color: white;
   width: 23.125rem;
+}
+.review-person{
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+}
+.foot-contain{
+  height: 21.438rem;
+  background-color: #1E2C20;
+}
+.foot-titles{
+  font-family: Roboto M, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  margin-top: 5rem;  
+}
+.foot-btns{
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: white;
+}
+.foot-btns:hover{
+  color: #82EBC5;
+  cursor: pointer;
+}
+.socials{
+  color: white;
+  margin: 0.5rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  
+}
+.socials-f{
+  color: white;
+  margin: 0.5rem;
+  width: 1.125rem;
+  height: 1.875rem;
+  
+}
+.moveDude{
+  margin-top: 0.5rem;
+}
+.sub-txt{
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: white;
+  width: 25.938rem;
+}
+
+.email-inpt{
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  width: 14.988rem;
+  height: 2.625rem;
+}
+.sub-btn{
+  width: 9.938rem;
+  height: 2.625rem;
+  background-color: transparent;
+  border: 1px, solid, white;
+  color: white;
+  font-family: Inter, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.sub-movement{
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+
+  .section-2-card1{
+    max-width: 40rem;
+    margin-left: 0rem;
+  }
+  .section-2-card2{
+    max-width: 40rem;
+
+  }
+  .foot-contain{
+    height: auto;
+  }
+  .container-custom{
+    flex-wrap: wrap;
+  }
+   .hero-bg{
+    height: 30rem;
+   }
+   .hero-text{
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    margin-top: 20rem;
+    font-size: 16px;
+   }
+
+   .scSize{
+    width: 15rem;
+    height: 14rem;
+   }
+
+   .s2cSize{
+    width: 40.313rem;
+    height: 29.5rem;
+
+}
+.section-1-text{
+  font-size: 28px;
+}
+.section-1-img{
+  max-width: 15rem;
+  height: 14rem;
+}
+.container-custom-2{
+  margin-left: 4rem;
+
+}
+.section-2-img{
+  max-width: 20.313rem;
+}
+}
+@media screen and (max-width: 425px){
+  .foot-contain{
+    height: auto;
+  }
 }
