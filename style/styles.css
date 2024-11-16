@@ -21,6 +21,7 @@ body {
 .container-custom{
  display: flex;
  justify-content: center;
+ width: 100%;
 }
 
 .section-1-card{
@@ -60,6 +61,13 @@ body {
   margin-left: 7rem;
   width: 93px;
   height: 76px;
+}
+.hover-bg{
+  width: 50.313rem;
+  background-color: black;
+}
+.s2cSize:hover{
+  opacity: 0.8;
 }
 
 .hero-bg {
@@ -391,4 +399,80 @@ margin-bottom: 3rem;
   .foot-contain{
     height: auto;
   }
+  .hero-bg{
+    height: 20.75rem;
+  }
+
+  .herotxt-bg{
+    margin-top: -6rem;
+    margin-left: -6rem;
+    width: 13.5rem;
+    height: 2.563rem;
+    font-size: 20px;
+    padding: 0.5rem;
+  }
+  .sale-text{
+    padding-top: 1rem;
+    font-size: 12px;
+  }
+  .saleBg{
+    height: 3.094rem;
+  }
+  .cookTitle{
+    font-size: 3.094rem;
+  }
+  .section-1-img{
+    width: 10.875rem;
+    height: 11.688rem;
+  }
+  .section-2-card1{
+    max-width: 24.688rem;
+    margin-left: -3rem;
+
+  }
+  .section-2-card2{
+    margin-left: -3rem;
+    max-width: 24.688rem;
+
+  }
+  .s2cSize{
+    max-width: 24.688rem;
+    height: 19.375rem;
+  }
+  .container-custom-2{
+    max-width: 20rem;
+  }
+  .sc3Size{
+  width: 24.688rem;
+  height: 19.375rem;
+  border-radius: 10px;
+}
+.sec-3-border{
+  width: 26.188rem;
+  margin-bottom: 1rem;
+  margin-left: -0.5rem;
+}
+.sec-3-txt{
+  width: 24.375rem;
+  font-size: 18px;
+}
+.reviewImg-1{
+  width: 25.688rem;
+  margin-bottom: 2rem;
+}
+.reviewImg-2{
+  width: 25.688rem;
+  margin-bottom: 2rem;
+}
+.reviewImg-3{
+  width: 25.688rem;
+}
+.reviewBox{
+  margin-left: -0.1rem;
+  width: 23.625rem;
+}
+.review-txt{
+  font-size: 18px;
+  margin-left: 0rem;
+}
 }
